@@ -1,20 +1,22 @@
-# FLO-2D-AI-Workshop-Data
+# 🌊 FLO-2D-AI-Workshop-Data
 Data for a workshop that helps users build python scripts for modifying FLO-2D data and output files.
 
-# 🚀 Load the FLO-2D AI Workshop Data in Google Colab
+# Load the FLO-2D AI Workshop Data in Google Colab
 
 Follow these steps to load the workshop data and notebook directly from GitHub into your Google Drive.
 This method keeps everything in the cloud and avoids downloading any files to your local computer.
 
-1. Open the Workshop Notebook in Google Colab
+Open the Workshop Notebook in Google Colab
 
-Step A: Go to the GitHub repository:
-https://github.com/FLO-2DSoftware/FLO-2D-AI-Workshop-Data
+Step 1: Go to the GitHub repository:
 
-Step B: Click the file named:
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FLO-2DSoftware/FLO-2D-AI-Workshop-Data/blob/main/AI_and_Python_FLO_2D_Data_Processing.ipynb)
+
+
+Step 2: Click the file named:
 AI_and_Python_FLO_2D_Data_Processing.ipynb
 
-Step C: In the top-right corner of the notebook preview, click:
+Step 3: In the top-right corner of the notebook preview, click:
 Open in Colab
 
 This opens the notebook inside Google Colab.
