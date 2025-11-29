@@ -11,35 +11,6 @@ Use the button below to open the workshop notebook directly in Google Colab.
 
 ---
 
-## 💦 Getting Started in Google Colab
-
-When the notebook opens in Colab, run the following setup cell to copy the workshop data into your own Google Drive.
-
-```python
-# Clone the workshop repository from GitHub
-!git clone https://github.com/FLO-2DSoftware/FLO-2D-AI-Workshop-Data.git
-
-# Mount Google Drive
-from google.colab import drive
-drive.mount('/content/drive')
-
-# Copy the workshop folder into your Drive
-!cp -r FLO-2D-AI-Workshop-Data "/content/drive/My Drive/FLO-2D-AI-Workshop-Data"
-```
-
-Your Google Drive will then contain:
-
-```
-My Drive/
-    FLO-2D-AI-Workshop-Data/
-        Data/
-        AI_and_Python_FLO_2D_Data_Processing.ipynb
-```
-
-This gives you a full, writable copy of all workshop materials stored safely in your own cloud space.
-
----
-
 ## 📁 Repository Contents
 
 ```
