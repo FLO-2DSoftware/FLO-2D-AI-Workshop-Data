@@ -1,24 +1,21 @@
-# 🌊 FLO-2D-AI-Workshop-Data
-Data for a workshop that helps users build python scripts for modifying FLO-2D data and output files.
+# 🌊 FLO-2D AI Workshop Data
 
-# Load the FLO-2D AI Workshop Data in Google Colab
+This repository contains the data and notebook used for the FLO-2D AI and Python Data Processing Workshop.  
+Use the button below to open the workshop notebook directly in Google Colab.
 
-Follow these steps to load the workshop data and notebook directly from GitHub into your Google Drive.
-This method keeps everything in the cloud and avoids downloading any files to your local computer.
+<p>
+  <a href="https://colab.research.google.com/github/FLO-2DSoftware/FLO-2D-AI-Workshop-Data/blob/main/AI_and_Python_FLO_2D_Data_Processing.ipynb" target="_blank">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
+  </a>
+</p>
 
-1. Open the Notebook in Google Colab
+---
 
-<a href="https://colab.research.google.com/github/FLO-2DSoftware/FLO-2D-AI-Workshop-Data/blob/main/AI_and_Python_FLO_2D_Data_Processing.ipynb" target="_blank">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
-</a>
+## 💦 Getting Started in Google Colab
 
+When the notebook opens in Colab, run the following setup cell to copy the workshop data into your own Google Drive.
 
-------------------------------------------------
-
-2. Run the Setup Cell to Copy the Data Into Your Google Drive
-
-In the Colab notebook, run this setup code:
-
+```python
 # Clone the workshop repository from GitHub
 !git clone https://github.com/FLO-2DSoftware/FLO-2D-AI-Workshop-Data.git
 
@@ -28,27 +25,34 @@ drive.mount('/content/drive')
 
 # Copy the workshop folder into your Drive
 !cp -r FLO-2D-AI-Workshop-Data "/content/drive/My Drive/FLO-2D-AI-Workshop-Data"
+```
 
-After this completes, you will have a full, editable copy of the workshop folder located at:
+Your Google Drive will then contain:
 
-My Drive / FLO-2D-AI-Workshop-Data
+```
+My Drive/
+    FLO-2D-AI-Workshop-Data/
+        Data/
+        AI_and_Python_FLO_2D_Data_Processing.ipynb
+```
 
-This folder contains Data, the workshop notebook, and all required files.
+This gives you a full, writable copy of all workshop materials stored safely in your own cloud space.
 
-------------------------------------------------
+---
 
-3. Verify that the Data Loaded Correctly
+## 📁 Repository Contents
 
-Run this command to confirm the data files are available:
+```
+Data/                          Example FLO-2D data files for processing
+AI_and_Python_FLO_2D_Data_Processing.ipynb     Workshop notebook
+README.md                     Instructions and setup
+LICENSE                       GPL-3.0 license
+```
 
-import os
-base_path = "/content/drive/My Drive/FLO-2D-AI-Workshop-Data/Data"
-os.listdir(base_path)
+---
 
-You should see a list of the workshop data files.
+## 💬 Support
 
-------------------------------------------------
+If you encounter issues loading the notebook or data in Colab, please contact the FLO-2D Team or create an Issue in this repository.
 
-You are now ready to begin working with the notebook and workshop data.
-
-
+Happy modeling!
